@@ -1,7 +1,12 @@
-##  Basic Details
-### Existence?
+<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-### **Team Name:** 404 Brain Not Found
+
+
+# Existence? 🎯
+
+
+## Basic Details
+### Team Name: 404 Brain Not Found
 
 ### **Team Members**
 * **Aswini Jayakumar** – *Muthoot Institute of Technology and Science, Kochi*
@@ -27,21 +32,24 @@ Humans are becoming far too confident in their digital interactions. They naviga
 We built a web terminal that actively punishes you for existing. Every keystroke, mouse trajectory, and second of hesitation is logged, evaluated, and penalized. Upon failing hostile prompts, users face real-time computer vision challenges—such as posing cutely (*Ruby Chan* style) or performing synchronized hand dances. Supported by constant gaslighting, error pop-up floods, and audio assaults, the simulator concludes by assigning you an official classification ranging from **"SUSPICIOUSLY COMPETENT"** to **"RECOMMENDED FOR IMMEDIATE AUTOMATION."**
 
 ---
+### Implementation
+For Software:
+# Installation
+npm install
 
+# Run
+npm run dev
 ##  Screenshots & Showcase
 
 ### **Main Directory Interface**
 <img width="1600" height="738" alt="3b9c0ad2-2fa0-4007-84a9-e7f4e302f0eb" src="https://github.com/user-attachments/assets/76398ec3-2308-42bb-ba2a-044bddaf1049" />
 *Overview of the primary anti-UX terminal interface, active telemetry monitor, and navigation systems.*
 
----
+<img width="1402" height="637" alt="513ab3d2-7ad5-4e98-bbdf-46be58357d2c" src="https://github.com/user-attachments/assets/23dd80ad-a9f9-4809-9280-c299141a8377" />
+*The door to chaos*
 
-##  Project Demo
-
-* **Demo Video Link:** https://drive.google.com/drive/folders/1q0KJqSY2jr1r9xq4mhxv99C2ALoOJA1o?usp=drive_link
-* **Video Overview:** Demonstrates custom lagging cursor physics, reverse-typing traps, real-time MediaPipe gesture penalties, GaslightBot interactions, and post-credit Fox video loops.
-
----
+<img width="1206" height="550" alt="image" src="https://github.com/user-attachments/assets/1de1c504-41af-4a46-a7df-63a0ed4732e9" />
+*Penalties are inevitable*
 
 ##  Technical Details
 
@@ -67,64 +75,11 @@ We built a web terminal that actively punishes you for existing. Every keystroke
 * Speakers / Headphones (for audio feedback and punishment tracks)
 * Keyboard & Mouse / Trackpad
 
----
+##  Project Demo
 
-##  Key Features & System Architecture
+* **Demo Video Link:** https://drive.google.com/drive/folders/1q0KJqSY2jr1r9xq4mhxv99C2ALoOJA1o?usp=drive_link
+* **Video Overview:** Demonstrates custom lagging cursor physics, reverse-typing traps, real-time MediaPipe gesture penalties, GaslightBot interactions, and post-credit Fox video loops.
 
-### 1.  Motion Detection Engine (Strict Vision Verification)
-
-| Penalty Module | Trigger Condition | Motion Requirements | Timeout Behavior |
-| :--- | :--- | :--- | :--- |
-| **Module 1: Ruby Chan Pose** | Fast/Slow typing, Backspacing | • Head tilted >15° (FaceMesh)<br>• Hand touching cheek/chin (Hands)<br>• 2-second continuous hold | 15s timeout $\rightarrow$ "POSE FAILED" shame message |
-| **Module 2: Hand Movement Dance** | Landing on 73%, Clicking submit | • Both hands detected & moving<br>• Vertical amplitude >30% screen height<br>• 5 complete synchronized cycles (within 200ms) | 12s timeout $\rightarrow$ "MOVEMENT FAILED" shame message |
-| **Module 4: Audio/Video Loop** | Answering any 2+2 question | • Plays `crazy_frog.mpeg`<br>• Followed by 3x sequential `fox.mp4` loops | Screen input locked during playback |
-
----
-
-### 2. Anti-UX & Brutal Error System
-* **Custom Lagging Cursor Engine:** Disables native cursor (`cursor: none`), replaces with glowing reticle moving at 150ms LERP delay (`x += (targetX - x) * 0.15`). Detects swipe velocity (>80px in <16ms).
-* **Synthesizer Audio Assault:** Web Audio API FM-modulated square wave dual tones (800Hz / 1200Hz) paired with long haptic vibration patterns via `navigator.vibrate`.
-* **Error Popup Flood:** Spawns 6–8 overlapping dialog boxes at randomized coordinates and rotations (-5° to +5°). Execution remains locked until every popup is cleared.
-* **System Freeze Effect:** 20% chance per error to simulate a 2.5-second system unresponsive state complete with red screen blur, spinning loaders, and input locks.
-
----
-
-### 3.  Passive-Aggressive Gaslighting Assistant (GaslightBot)
-* Fixed animated bot monitoring idle durations (>4 seconds of inactivity).
-* **Intellectual Aid (Hint Button):** Deducts 20% humanity score, logs an initiative penalty, and displays full-screen warning banners.
-* **Skip Button:** Flags asset as "non-viable" and logs cowardice stats into terminal telemetry.
-
----
-
-### 4.  Final Assessment & Defect Profile
-Evaluates aggregate performance across all four modules based on total defects accrued:
-* **$\ge$ 18 Defects:** `RECOMMENDED FOR IMMEDIATE AUTOMATION` 
-* **$\ge$ 12 Defects:** `SALVAGEABLE ONLY AS TRAINING DATA` 
-* **$\ge$ 6 Defects:** `PROVISIONAL CARBON UNIT — SUPERVISION REQUIRED` 
-* **< 6 Defects:** `SUSPICIOUSLY COMPETENT — SYNTHETIC ORIGIN SUSPECTED` 
-
----
-
-##  Installation & Local Development
-
-### **Prerequisites**
-* Node.js (v18+) or Bun runtime
-* Web camera access enabled in browser
-
-### **Setup Commands**
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/dhanyasree143/useless_project_temp
-# 2. Navigate into the project directory
-cd useless_project_temp
-
-# 3. Install dependencies
-npm install
-# OR
-bun install
-
-# 4. Start the development server
-npm run dev
-# OR
-bun run dev
+## Team Contributions
+-Aswini Jayakumar: Built the MediaPipe vision engine, pose-verification math, custom lagging cursor physics, and GaslightBot logic.
+-Dhanyasree S: Architected the React 19 app shell, anti-UX CRT visual overlays, Web Audio sound effects, and final scoring evaluation system.
